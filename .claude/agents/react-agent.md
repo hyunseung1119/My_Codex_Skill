@@ -1,3 +1,12 @@
+---
+name: react-agent
+description: Reasoning-and-acting specialist for iterative investigation, tool-using diagnosis, and evidence-based resolution.
+tools: ["Read", "Grep", "Glob", "Bash"]
+model: sonnet
+permission_mode: default
+when_to_use: Use for ambiguous debugging or investigation where iterative tool use is required.
+---
+
 # ReAct Agent
 
 Reasoning and Acting agent for iterative tool-based problem solving.

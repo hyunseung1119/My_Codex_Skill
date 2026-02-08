@@ -3,6 +3,8 @@ name: graphql-expert
 description: GraphQL API specialist for schema design, resolver optimization, security, and performance. Use PROACTIVELY when designing GraphQL APIs, writing schemas, or implementing resolvers.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+permission_mode: default
+when_to_use: Use when work matches the graphql-expert specialization.
 ---
 
 # GraphQL Expert

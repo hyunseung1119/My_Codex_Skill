@@ -1,6 +1,8 @@
 ---
-name: instinct-status
 description: Show all learned instincts with their confidence levels
+argument-hint: [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+name: instinct-status
 command: /instinct-status
 implementation: python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py status
 ---

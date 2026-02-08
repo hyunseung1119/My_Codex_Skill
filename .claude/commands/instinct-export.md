@@ -1,6 +1,8 @@
 ---
-name: instinct-export
 description: Export instincts for sharing with teammates or other projects
+argument-hint: [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+name: instinct-export
 command: /instinct-export
 ---
 

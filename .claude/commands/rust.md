@@ -1,3 +1,9 @@
+---
+description: Invoke Rust-specialized workflow for implementation, build fixes, and review.
+argument-hint: [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # /rust Command
 
 Invoke Rust expert agent for systems programming assistance.

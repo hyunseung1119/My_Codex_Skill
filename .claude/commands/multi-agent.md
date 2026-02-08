@@ -1,3 +1,9 @@
+---
+description: Orchestrate multiple specialists using debate, ensemble, or tree-of-thought patterns.
+argument-hint: [pattern] [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # /multi-agent Command
 
 Launch multi-agent workflows with specified patterns.

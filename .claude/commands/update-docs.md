@@ -1,3 +1,9 @@
+---
+description: Update project documentation to reflect code and workflow changes.
+argument-hint: [scope]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Update Documentation
 
 Sync documentation from source-of-truth:

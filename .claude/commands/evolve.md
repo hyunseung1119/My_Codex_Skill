@@ -1,6 +1,8 @@
 ---
-name: evolve
 description: Cluster related instincts into skills, commands, or agents
+argument-hint: [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+name: evolve
 command: /evolve
 implementation: python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py evolve
 ---

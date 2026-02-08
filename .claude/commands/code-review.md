@@ -1,3 +1,9 @@
+---
+description: Run structured code review focused on correctness, security, performance, and maintainability.
+argument-hint: [target]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Code Review
 
 Comprehensive security and quality review of uncommitted changes:

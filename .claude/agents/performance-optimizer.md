@@ -3,6 +3,8 @@ name: performance-optimizer
 description: API 응답 시간, 토큰 효율성, 쿼리 성능 최적화
 tools: Read, Edit, Bash, Write
 model: opus
+permission_mode: default
+when_to_use: Use when work matches the performance-optimizer specialization.
 disallowedTools: Delete
 ---
 

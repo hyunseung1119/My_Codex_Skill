@@ -1,3 +1,9 @@
+---
+description: Apply anti-AI frontend design rules and modern UI quality constraints.
+argument-hint: [component_or_page]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # /modern-frontend — Anti-AI Frontend Design (2026)
 
 프론트엔드 작업에 Anti-AI 디자인 원칙을 적용합니다.

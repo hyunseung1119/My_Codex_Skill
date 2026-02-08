@@ -1,3 +1,9 @@
+---
+description: Generate frontend component-to-UI mapping documentation for fast navigation.
+argument-hint: [path_or_page]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Frontend Codemap Command
 
 Generate UI-to-code mapping documentation for frontend projects.

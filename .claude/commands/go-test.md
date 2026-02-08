@@ -1,5 +1,7 @@
 ---
 description: Enforce TDD workflow for Go. Write table-driven tests first, then implement. Verify 80%+ coverage with go test -cover.
+argument-hint: [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
 ---
 
 # Go TDD Command

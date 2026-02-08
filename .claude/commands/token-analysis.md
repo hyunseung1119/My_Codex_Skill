@@ -1,3 +1,9 @@
+---
+description: Analyze token/context usage and optimize prompt/context efficiency.
+argument-hint: [file_or_prompt]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # /token-analysis Command
 
 Analyze token usage and get optimization recommendations.

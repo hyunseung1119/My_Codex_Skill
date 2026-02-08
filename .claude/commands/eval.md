@@ -1,3 +1,9 @@
+---
+description: Run evaluation workflow to measure solution quality against defined criteria.
+argument-hint: [dataset_or_target]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Eval Command
 
 Manage eval-driven development workflow.

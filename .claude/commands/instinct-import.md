@@ -1,6 +1,8 @@
 ---
-name: instinct-import
 description: Import instincts from teammates, Skill Creator, or other sources
+argument-hint: [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+name: instinct-import
 command: /instinct-import
 implementation: python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py import <file>
 ---

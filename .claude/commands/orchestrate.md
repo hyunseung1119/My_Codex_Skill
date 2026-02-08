@@ -1,3 +1,9 @@
+---
+description: Coordinate a multi-step workflow across planning, implementation, review, and verification.
+argument-hint: [workflow]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Orchestrate Command
 
 Sequential agent workflow for complex tasks.

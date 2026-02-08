@@ -1,3 +1,9 @@
+---
+description: Capture a concise checkpoint summary of current changes, risks, and next actions.
+argument-hint: [summary_scope]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Checkpoint Command
 
 Create or verify a checkpoint in your workflow.

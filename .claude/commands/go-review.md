@@ -1,5 +1,7 @@
 ---
 description: Comprehensive Go code review for idiomatic patterns, concurrency safety, error handling, and security. Invokes the go-reviewer agent.
+argument-hint: [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
 ---
 
 # Go Code Review

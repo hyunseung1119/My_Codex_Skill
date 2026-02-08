@@ -1,3 +1,9 @@
+---
+description: Perform safe cleanup refactoring without behavior change and verify regressions.
+argument-hint: [target]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Refactor Clean
 
 Safely identify and remove dead code with test verification:

@@ -71,6 +71,7 @@
 ## 4) Rules File
 
 - `rules/modern-frontend.md`
+- `.claude/rules/multi-codex-operations.md`
 
 ## 5) Desktop Snapshot
 

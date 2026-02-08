@@ -1,3 +1,9 @@
+---
+description: Capture and store repeatable workflow instincts from successful execution patterns.
+argument-hint: [pattern_note]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # /learn - Extract Reusable Patterns
 
 Analyze the current session and extract any patterns worth saving as skills.

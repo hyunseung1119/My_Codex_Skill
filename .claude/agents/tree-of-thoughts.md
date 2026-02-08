@@ -1,3 +1,12 @@
+---
+name: tree-of-thoughts
+description: Structured reasoning specialist that explores multiple solution branches and synthesizes defensible decisions.
+tools: ["Read", "Grep", "Glob"]
+model: sonnet
+permission_mode: default
+when_to_use: Use when alternative architectures or strategies must be compared before implementation.
+---
+
 # Tree of Thoughts Agent
 
 Complex problem solver using multi-path exploration and evaluation.

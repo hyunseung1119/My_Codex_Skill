@@ -1,3 +1,9 @@
+---
+description: Measure and improve test coverage to the configured project threshold.
+argument-hint: [target_module]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Test Coverage
 
 Analyze test coverage and generate missing tests:

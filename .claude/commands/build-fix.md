@@ -1,3 +1,9 @@
+---
+description: Incrementally fix build and type errors with verification after each change.
+argument-hint: [build_command]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Build and Fix
 
 Incrementally fix TypeScript and build errors:

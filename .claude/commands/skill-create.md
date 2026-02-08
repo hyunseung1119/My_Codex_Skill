@@ -1,6 +1,8 @@
 ---
-name: skill-create
 description: Analyze local git history to extract coding patterns and generate SKILL.md files. Local version of the Skill Creator GitHub App.
+argument-hint: [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+name: skill-create
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
 ---
 

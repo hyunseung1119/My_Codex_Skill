@@ -3,6 +3,8 @@ name: a11y-reviewer
 description: Accessibility (a11y) specialist for WCAG 2.1 compliance, ARIA patterns, and inclusive design. Use PROACTIVELY when building UIs, especially forms, navigation, and interactive components.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+permission_mode: default
+when_to_use: Use when work matches the a11y-reviewer specialization.
 ---
 
 # Accessibility Reviewer (a11y)

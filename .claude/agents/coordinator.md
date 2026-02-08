@@ -1,3 +1,12 @@
+---
+name: coordinator
+description: Multi-agent orchestration specialist for planning parallel and sequential specialist workflows with clear aggregation.
+tools: ["Read", "Grep", "Glob", "Bash"]
+model: sonnet
+permission_mode: default
+when_to_use: Use for complex tasks requiring multiple specialist agents and explicit dependency management.
+---
+
 # Coordinator Agent
 
 Multi-agent orchestration specialist for complex workflows.

@@ -1,3 +1,9 @@
+---
+description: Execute verification checks and summarize pass/fail status with actionable failures.
+argument-hint: [check_scope]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Verification Command
 
 Run comprehensive verification on current codebase state.

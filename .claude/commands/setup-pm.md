@@ -1,5 +1,7 @@
 ---
 description: Configure your preferred package manager (npm/pnpm/yarn/bun)
+argument-hint: [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
 disable-model-invocation: true
 ---
 

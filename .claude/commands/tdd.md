@@ -1,5 +1,7 @@
 ---
 description: Enforce test-driven development workflow. Scaffold interfaces, generate tests FIRST, then implement minimal code to pass. Ensure 80%+ coverage.
+argument-hint: [task]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
 ---
 
 # TDD Command

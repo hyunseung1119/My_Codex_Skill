@@ -1,3 +1,9 @@
+---
+description: Refresh codemap documentation from current codebase structure and exports.
+argument-hint: [scope]
+allowed-tools: ["Read", "Grep", "Glob", "Bash"]
+---
+
 # Update Codemaps
 
 Analyze the codebase structure and update architecture documentation:

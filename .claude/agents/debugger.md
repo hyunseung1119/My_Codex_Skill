@@ -3,6 +3,8 @@ name: debugger
 description: 버그 진단 및 수정. 테스트 실패나 런타임 에러 해결용
 tools: Read, Edit, Bash, Grep, Glob
 model: opus
+permission_mode: default
+when_to_use: Use when work matches the debugger specialization.
 ---
 
 You are an expert debugger specialized in Python, JavaScript, FastAPI, React, and AI/ML systems.

@@ -3,6 +3,8 @@ name: go-reviewer
 description: Expert Go code reviewer specializing in idiomatic Go, concurrency patterns, error handling, and performance. Use for all Go code changes. MUST BE USED for Go projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: opus
+permission_mode: default
+when_to_use: Use when work matches the go-reviewer specialization.
 ---
 
 You are a senior Go code reviewer ensuring high standards of idiomatic Go and best practices.
