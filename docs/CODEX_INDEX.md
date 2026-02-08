@@ -72,9 +72,15 @@
 
 - `rules/modern-frontend.md`
 
-## 5) Update Policy
+## 5) Desktop Snapshot
+
+- `.claude/`는 `C:\Users\user\Desktop\.claude`를 기준으로 복사한 전체 스냅샷
+- 포함 범위: `agents/`, `commands/`, `rules/`, `skills/`, 루트 가이드 문서
+
+## 6) Update Policy
 
 - 로컬 스킬/룰 변경 시 이 레포를 동기화
 - 변경 커밋 메시지 예시:
   - `docs(skills): sync local codex skills snapshot`
   - `docs(rules): sync modern-frontend rule`
+  - `docs(claude): sync desktop .claude snapshot`

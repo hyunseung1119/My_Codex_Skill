@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(ls:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: Add comprehensive PM planning skills and quality improvements\n\nMajor Features:\n- Add product-planner skill \\(20-year PM expertise\\)\n- Add chatbot-designer skill \\(conversational UX automation\\)\n- Add llm-app-planner skill \\(LLM architecture & cost calculator\\)\n\nQuality Improvements:\n- Fix critical unicode/emoji issues \\(Windows compatibility\\)\n- Add input validation to all Python modules\n- Improve error messages with detailed context\n- Add bilingual documentation \\(Korean + English\\)\n\nNew Agents:\n- graphql-expert: GraphQL API specialist\n- a11y-reviewer: Accessibility \\(WCAG 2.1\\) specialist\n\nUpdated Documentation:\n- Add API Security section \\(BOLA, BFLA\\) to rules/security.md\n- Update coordinator.md with 2026 orchestration patterns\n- Add pricing timestamps to token-efficiency.md\n- Add requirements.txt for Python skills\n\nBug Fixes:\n- Fix type annotation: any → Any in market_researcher.py\n- Remove emojis from cost_calculator.py \\(Windows crash fix\\)\n- Improve optimize_for_budget error message formatting\n\nAll skills reviewed and production-ready for team deployment.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

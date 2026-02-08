@@ -4,6 +4,7 @@ Codex가 참고하는 스킬/룰/운영 커맨드를 한 저장소에서 관리�
 
 ## Included
 
+- `.claude/`: `C:\Users\user\Desktop\.claude` 전체 스냅샷 (agents/commands/rules/skills 포함)
 - `skills/`: 인식 중인 31개 스킬의 원문 `SKILL.md`
 - `rules/`: 로컬 룰 파일(`modern-frontend.md`)
 - `docs/CODEX_INDEX.md`: 스킬 라우팅 방식, 우선순위 룰, 스킬 카탈로그
@@ -14,12 +15,15 @@ Codex가 참고하는 스킬/룰/운영 커맨드를 한 저장소에서 관리�
 
 ```powershell
 tree /A /F
+tree /A /F .claude
 Get-ChildItem -Path skills -Directory | Select-Object Name
 Get-Content -Path skills\clean-code\SKILL.md -Encoding utf8 | Select-Object -First 30
 Get-Content -Path rules\modern-frontend.md -Encoding utf8 | Select-Object -First 30
+Get-Content -Path .claude\CLAUDE.md -Encoding utf8 | Select-Object -First 30
 ```
 
 ## Notes
 
 - 이 레포는 2026-02-08 스냅샷 기준으로 정리되었습니다.
 - 원본 로컬 경로는 일반적으로 `C:\Users\user\.codex\skills`, `C:\Users\user\.claude\rules` 입니다.
+- Desktop 스냅샷 원본: `C:\Users\user\Desktop\.claude`

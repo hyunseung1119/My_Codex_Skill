@@ -1,0 +1,87 @@
+{
+  "env": {
+    "ENABLE_TOOL_SEARCH": "auto:5",
+    "MAX_MCP_OUTPUT_TOKENS": "25000",
+    "MAX_THINKING_TOKENS": "32000",
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "16000",
+    "PARALLEL_AGENT_LIMIT": "3",
+    "TOKEN_BUDGET_WARNING": "0.8"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(test:*)",
+      "Bash(find:*)",
+      "Bash(python:*)",
+      "Bash(pip:*)",
+      "Bash(npm:*)",
+      "Bash(git:*)",
+      "Bash(cd:*)",
+      "Bash(ls:*)",
+      "Bash(pytest:*)",
+      "Bash(cargo:*)",
+      "Bash(rustc:*)",
+      "Bash(kubectl:*)",
+      "Bash(terraform:*)",
+      "Bash(docker:*)",
+      "Edit",
+      "Write",
+      "Read",
+      "Grep",
+      "Glob",
+      "WebSearch",
+      "Task",
+      "Bash(wc:*)",
+      "Bash(iconv:*)",
+      "Bash(tee:*)",
+      "Skill(react-component)",
+      "Skill(multi-agent)",
+      "Skill(token-analysis)",
+      "Skill(rust)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(del:*)",
+      "Bash(format:*)"
+    ]
+  },
+  "model": "sonnet",
+  "modelOverrides": {
+    "planning": "opus",
+    "architecture": "opus",
+    "simple-edit": "haiku",
+    "formatting": "haiku",
+    "code-review": "sonnet",
+    "security-review": "sonnet"
+  },
+  "agentDefaults": {
+    "maxIterations": 10,
+    "parallelLimit": 3,
+    "timeoutMs": 300000
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'if echo \"$TOOL_INPUT\" | jq -r \".file_path\" | grep -qE \"\\.(jsx?|tsx?)$\"; then FILE=$(echo \"$TOOL_INPUT\" | jq -r \".file_path\"); cd frontend_react && npx prettier --write \"../$FILE\" 2>/dev/null || true; fi'"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'CMD=$(echo \"$TOOL_INPUT\" | jq -r \".command\"); if echo \"$CMD\" | grep -qE \"^(pytest|npm test)\"; then echo \"{\\\"hookSpecificOutput\\\": {\\\"hookEventName\\\": \\\"PreToolUse\\\", \\\"permissionDecision\\\": \\\"allow\\\", \\\"updatedInput\\\": {\\\"command\\\": \\\"$CMD | grep -E \\\\\\\"(PASS|FAIL|ERROR|error:|✓|✗)\\\\\\\" || echo \\\\\\\"All tests passed\\\\\\\"\\\"}}}\"; else echo \"{}\"; fi'"
+          }
+        ]
+      }
+    ]
+  }
+}
