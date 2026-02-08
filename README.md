@@ -1,64 +1,25 @@
 # My_Codex_Skill
 
-## Codex 인식 규칙 (현재 세션 기준)
+Codex가 참고하는 스킬/룰/운영 커맨드를 한 저장소에서 관리하기 위한 레포입니다.
 
-### 1) 우선 적용 규칙
-- 우선순위: `system > developer > AGENTS.md > user request`
-- 협업 모드: `Default`
-- 공통 품질 규칙: `SOLID`, `DRY`, `KISS`, `YAGNI`
-- Git 규칙: `Conventional Commits`
-- 보안 규칙: 시크릿 하드코딩 금지, 입력 검증/정규화, 민감정보 로깅 금지
-- 에러 처리: 경계에서 처리, 묵살 금지, API는 `RFC 9457 Problem Details` 권장
-- 프론트엔드: Anti-AI 디자인 규칙 + `C:\Users\user\.claude\rules\modern-frontend.md` 참고
+## Included
 
-### 2) 스킬 사용 방식
-- 사용자 질문에서 트리거를 매칭해 해당 스킬을 선택
-- 선택된 스킬의 `SKILL.md`를 읽고 지침을 적용
-- 여러 스킬이 겹치면 최소 조합만 사용
-- 스킬 파일 접근이 막히면 fallback 방식으로 진행
-- 스킬은 턴마다 재판단 (자동 고정 아님)
+- `skills/`: 인식 중인 31개 스킬의 원문 `SKILL.md`
+- `rules/`: 로컬 룰 파일(`modern-frontend.md`)
+- `docs/CODEX_INDEX.md`: 스킬 라우팅 방식, 우선순위 룰, 스킬 카탈로그
+- `docs/GIT_COMMANDS.md`: 신규 레포 생성/푸시, upstream 변경 커맨드
+- `docs/SKILL_TRIGGERS.md`: 스킬별 트리거 키워드 표
 
-### 3) 현재 인식 중인 스킬 목록
+## Quick Check
 
-#### Development Fundamentals
-- `clean-code`
-- `code-review`
-- `debugging`
-- `refactoring`
-- `tdd-workflow`
-- `performance-optimization`
-- `security-audit`
-- `git-workflow`
+```powershell
+tree /A /F
+Get-ChildItem -Path skills -Directory | Select-Object Name
+Get-Content -Path skills\clean-code\SKILL.md -Encoding utf8 | Select-Object -First 30
+Get-Content -Path rules\modern-frontend.md -Encoding utf8 | Select-Object -First 30
+```
 
-#### API & Backend
-- `api-design`
-- `api-spec-generator`
-- `backend-api`
-- `architecture-design`
+## Notes
 
-#### Frontend
-- `react-component`
-- `frontend-codemap`
-
-#### AI / LLM
-- `ai-developer-practice`
-- `chatbot-designer`
-- `agentic-workflows`
-- `rag-2.0`
-- `prompt-optimizer`
-- `context-compressor`
-- `mcp-integration`
-- `agent-evaluator`
-- `ml-training`
-- `llm-app-planner`
-- `ai-research-integration`
-- `research-agent-tech`
-
-#### Documentation & Planning
-- `documentation-gen`
-- `dev-journal`
-- `product-planner`
-
-#### System Skills
-- `skill-creator`
-- `skill-installer`
+- 이 레포는 2026-02-08 스냅샷 기준으로 정리되었습니다.
+- 원본 로컬 경로는 일반적으로 `C:\Users\user\.codex\skills`, `C:\Users\user\.claude\rules` 입니다.
