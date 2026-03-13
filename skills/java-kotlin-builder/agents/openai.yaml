@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java Kotlin Builder"
+  short_description: "Implement JVM backend changes safely"
+  default_prompt: "Use $java-kotlin-builder to implement this Java or Kotlin backend change with clean layering and safe transactions."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Verifier"
+  short_description: "Validate React, Next, and TS UI changes"
+  default_prompt: "Use $frontend-verifier to choose and run the right validation sequence for this frontend change."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Verifier"
+  short_description: "Validate pytest, ruff, and typing flows"
+  default_prompt: "Use $python-verifier to pick the smallest correct validation sequence for this Python change."

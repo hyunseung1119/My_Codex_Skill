@@ -1,0 +1,4 @@
+interface:
+  display_name: "FastAPI Builder"
+  short_description: "Ship FastAPI endpoints and schemas safely"
+  default_prompt: "Use $fastapi-builder to implement and verify this FastAPI endpoint or backend change."

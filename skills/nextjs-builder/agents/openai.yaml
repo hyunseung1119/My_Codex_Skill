@@ -1,0 +1,4 @@
+interface:
+  display_name: "Next.js Builder"
+  short_description: "Handle App Router and RSC changes safely"
+  default_prompt: "Use $nextjs-builder to implement and validate this Next.js change with the right route, server/client, and build checks."

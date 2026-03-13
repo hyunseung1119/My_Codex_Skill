@@ -1,0 +1,4 @@
+interface:
+  display_name: "Monorepo Coordinator"
+  short_description: "Map package impact before you verify"
+  default_prompt: "Use $monorepo-coordinator to identify affected packages and choose the smallest correct validation scope."
