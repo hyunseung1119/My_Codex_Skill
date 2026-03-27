@@ -1,0 +1,12 @@
+﻿model = "gpt-5.4"
+model_reasoning_effort = "high"
+personality = "pragmatic"
+
+[notice]
+hide_rate_limit_model_nudge = true
+
+[mcp_servers.openaiDeveloperDocs]
+url = "https://developers.openai.com/mcp"
+
+[windows]
+sandbox = "elevated"
