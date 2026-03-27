@@ -52,6 +52,16 @@ bash ./setup.sh --target codex
 이 변경사항 리뷰해줘
 ```
 
+## 스킬 검증
+
+스킬을 추가하거나 수정했다면 배포 전에 한 번 검증하는 것이 안전합니다.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\validate-skills.ps1
+```
+
+이 스크립트는 모든 `SKILL.md`가 YAML frontmatter로 시작하는지, 그리고 UTF-8 BOM 없이 저장됐는지 확인합니다.
+
 ## 먼저 읽을 문서
 
 - [GUIDE.md](GUIDE.md): 비개발자도 따라할 수 있는 단계별 설치 가이드
