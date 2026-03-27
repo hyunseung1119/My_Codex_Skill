@@ -1,0 +1,4 @@
+interface:
+  display_name: "Root Cause Debugger"
+  short_description: "Reproduce, isolate, and fix failures"
+  default_prompt: "Use $root-cause-debugger to reproduce this failure, isolate the cause, and patch the smallest correct surface."

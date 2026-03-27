@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Workflow Bridge"
+  short_description: "Translate Claude Code habits into Codex"
+  default_prompt: "Use $claude-workflow-bridge to align Codex behavior with my Claude Code workflow and global setup."

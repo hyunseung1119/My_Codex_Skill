@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Guard"
+  short_description: "Run a bug-first review with severity"
+  default_prompt: "Use $review-guard to review these changes for bugs, regressions, and missing tests."

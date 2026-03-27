@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Planner"
+  short_description: "Turn coding tasks into executable steps"
+  default_prompt: "Use $task-planner to break this task into concrete implementation and verification steps."

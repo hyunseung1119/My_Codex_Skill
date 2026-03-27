@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Builder"
+  short_description: "Implement Go packages and services cleanly"
+  default_prompt: "Use $go-builder to implement this Go change with clear package boundaries, errors, and concurrency handling."

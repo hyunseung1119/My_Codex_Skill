@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Verifier"
+  short_description: "Validate Go package and module changes"
+  default_prompt: "Use $go-verifier to pick the smallest correct validation flow for this Go change."

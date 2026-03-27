@@ -1,0 +1,4 @@
+interface:
+  display_name: "Supabase Guard"
+  short_description: "Protect migrations, RLS, and auth flows"
+  default_prompt: "Use $supabase-guard to implement or review this Supabase change for schema, RLS, and auth safety."

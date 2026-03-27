@@ -1,0 +1,4 @@
+interface:
+  display_name: "Node Verifier"
+  short_description: "Validate Node and TS backend changes"
+  default_prompt: "Use $node-verifier to choose and run the right checks for this Node.js or TypeScript backend change."
