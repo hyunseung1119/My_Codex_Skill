@@ -1,4 +1,4 @@
-﻿---
+---
 name: product-planner
 description: "20년 시니어 PM 수준의 제품 기획을 자동화합니다. \\\"제품 기획\\\", \\\"PRD 작성\\\", \\\"로드맵\\\", \\\"시장 조사\\\", \\\"경쟁 분석\\\", \\\"비즈니스 모델\\\", \\\"product planning\\\", \\\"PRD\\\", \\\"roadmap\\\", \\\"market research\\\" 등의 요청 시 사용합니다. TAM/SAM/SOM, JTBD, RICE, Lean Canvas 프레임워크를 포함합니다."
 ---

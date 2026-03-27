@@ -1,4 +1,4 @@
-﻿---
+---
 name: mcp-integration
 description: "Model Context Protocol(MCP) 서버를 설정하고 통합합니다. \\\"MCP 설정\\\", \\\"MCP 서버\\\", \\\"도구 연동\\\", \\\"외부 서비스 연결\\\", \\\"MCP setup\\\", \\\"MCP server\\\", \\\"tool integration\\\" 등의 요청 시 사용합니다. Claude의 외부 도구, 데이터베이스, 서비스 연동을 지원합니다."
 ---

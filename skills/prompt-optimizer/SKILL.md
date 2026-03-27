@@ -1,4 +1,4 @@
-﻿---
+---
 name: prompt-optimizer
 description: "프롬프트 엔지니어링과 LangGraph 구성을 자동 최적화합니다. \\\"프롬프트 최적화\\\", \\\"프롬프트 개선\\\", \\\"LangGraph\\\", \\\"프롬프트 튜닝\\\", \\\"prompt optimization\\\", \\\"prompt tuning\\\", \\\"LangGraph optimization\\\" 등의 요청 시 사용합니다. 성능, 비용, 속도 측면에서 프롬프트를 개선합니다."
 ---

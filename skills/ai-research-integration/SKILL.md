@@ -1,4 +1,4 @@
-﻿---
+---
 name: ai-research-integration
 description: "범용 AI 연구 방법론 — 모든 AI 기술에 대한 체계적 논문 조사, 평가, POC 구현, ADR 작성을 수행합니다. \\\"논문 조사\\\", \\\"AI 연구\\\", \\\"최신 기술 적용\\\", \\\"연구 통합\\\", \\\"literature review\\\", \\\"paper review\\\", \\\"research integration\\\", \\\"SOTA 비교\\\" 등의 요청 시 사용합니다. 5가지 평가 기준(관련성/참신성/재현성/적용성/성숙도) 기반 논문 스코어링, 통합 리스크 평가, 벤치마킹을 포함합니다. (LLM/Agent 특화 트렌드는 research-agent-tech 스킬 참조)"
 ---

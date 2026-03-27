@@ -1,4 +1,4 @@
-﻿---
+---
 name: backend-api
 description: "FastAPI 기반 백엔드 API를 구현하고 테스트합니다. \\\"백엔드 구현\\\", \\\"FastAPI\\\", \\\"엔드포인트 구현\\\", \\\"API 구현\\\", \\\"라우터\\\", \\\"미들웨어\\\", \\\"backend\\\", \\\"endpoint\\\", \\\"router\\\", \\\"middleware\\\", \\\"Pydantic\\\" 등의 요청 시 사용합니다. API 설계, 요청 검증, 데이터베이스 통합, 인증/인가를 포함합니다. (설계 원칙은 api-design, PM용 명세는 api-spec-generator 스킬 참조)"
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: api-design
 description: "RESTful API 및 GraphQL API 설계 원칙과 문서화 표준을 제공합니다. \\\"API 설계\\\", \\\"엔드포인트 설계\\\", \\\"REST API\\\", \\\"GraphQL 스키마\\\", \\\"API 스펙\\\", \\\"OpenAPI\\\", \\\"API 버전 관리\\\", \\\"API design\\\", \\\"endpoint design\\\", \\\"REST convention\\\" 등의 요청 시 사용합니다. RESTful 컨벤션, OpenAPI 3.x, RFC 9457 에러 응답, 페이지네이션, Rate Limiting을 포함합니다. (구현은 backend-api, PM용 명세는 api-spec-generator 스킬 참조)"
 ---

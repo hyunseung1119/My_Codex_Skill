@@ -1,4 +1,4 @@
-﻿---
+---
 name: chatbot-designer
 description: "LLM Agent Architect — LLM 에이전트, 챗봇, AI 시스템 설계 종합 스킬. 사용자가 에이전트/챗봇/LLM 시스템을 기획하거나 구축할 때, 심리학 논문·최신 연구·사례 기반으로 최적의 아키텍처, 프롬프트 엔지니어링, 대화 설계, UX를 도메인에 맞춰 적용한다. Use this skill when designing, planning, or building any LLM-powered system — chatbots, AI agents, conversational AI, RAG systems, multi-agent systems, system prompts, or prompt pipelines. Triggers: \\\"에이전트 만들어\\\", \\\"챗봇 기획\\\", \\\"시스템 프롬프트\\\", \\\"프롬프트 설계\\\", \\\"AI 어시스턴트\\\", \\\"LLM 앱 기획\\\", \\\"agent architecture\\\", \\\"chatbot\\\", \\\"system prompt\\\", \\\"prompt engineering\\\", \\\"conversational AI\\\"."
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 name: context-compressor
 description: "컨텍스트를 압축하여 토큰 사용을 최적화합니다. \\\"컨텍스트 압축\\\", \\\"토큰 절약\\\", \\\"요약\\\", \\\"정보 압축\\\", \\\"context compression\\\", \\\"token optimization\\\", \\\"summarize context\\\" 등의 요청 시 사용합니다. 코드, 문서, 대화 컨텍스트의 정보 밀도를 높이면서 핵심 정보를 보존합니다."
 ---

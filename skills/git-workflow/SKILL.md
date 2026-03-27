@@ -1,4 +1,4 @@
-﻿---
+---
 name: git-workflow
 description: "고급 Git 워크플로우를 수행합니다. \\\"커밋해줘\\\", \\\"PR 만들어\\\", \\\"브랜치 전략\\\", \\\"conventional commit\\\", \\\"변경사항 정리\\\", \\\"git 히스토리 정리\\\", \\\"릴리즈 준비\\\" 등의 요청 시 사용합니다. Conventional Commits, 자동 PR 생성, 체계적 브랜치 전략을 포함합니다."
 ---

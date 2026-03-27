@@ -1,4 +1,4 @@
-﻿---
+---
 name: database-schema
 description: "Design database schemas, migrations, indexing, and query strategies for SQL and NoSQL systems. Use for ERD design, schema review, migrations, or database best practices."
 ---

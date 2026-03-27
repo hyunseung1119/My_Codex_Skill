@@ -1,4 +1,4 @@
-﻿---
+---
 name: industry-persona-qa
 description: "산업별 다중 페르소나 QA — 프로젝트가 속한 사업군의 다양한 역할자 관점에서 QA를 수행하고 피드백합니다"
 ---

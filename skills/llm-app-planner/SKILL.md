@@ -1,4 +1,4 @@
-﻿---
+---
 name: llm-app-planner
 description: "LLM 앱 기획 빠른 참조 가이드. 상세 설계는 chatbot-designer 스킬을 사용합니다. \\\"LLM 앱 유형\\\", \\\"어떤 LLM 패턴\\\", \\\"RAG vs Agent\\\", \\\"LLM 앱 비교\\\", \\\"quick reference\\\" 등의 요청 시 빠른 의사결정을 지원합니다."
 ---

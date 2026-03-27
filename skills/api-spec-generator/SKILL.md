@@ -1,4 +1,4 @@
-﻿---
+---
 name: api-spec-generator
 description: "PM/개발자용 API 명세서, 워크플로우, 기능명세서를 자동 생성합니다. \\\"API 명세\\\", \\\"명세서 작성\\\", \\\"워크플로우 문서\\\", \\\"기능명세\\\", \\\"기획 문서\\\", \\\"API spec\\\", \\\"workflow document\\\", \\\"feature specification\\\", \\\"sequence diagram\\\" 등의 요청 시 사용합니다. RESTful API 명세, 시퀀스 다이어그램, 에러 코드 정의를 포함합니다. (설계 원칙은 api-design, 구현은 backend-api 스킬 참조)"
 ---

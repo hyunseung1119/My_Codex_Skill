@@ -1,4 +1,4 @@
-﻿---
+---
 name: research-agent-tech
 description: "LLM/Agent 특화 기술 트렌드 — 2026년 최신 LLM/Agent 논문과 프레임워크를 조사하고 구체적 구현 예시와 함께 적용합니다. \\\"최신 기술 조사\\\", \\\"트렌드 분석\\\", \\\"기술 동향\\\", \\\"에이전트 기술\\\", \\\"RAG 개선\\\", \\\"tech trends\\\", \\\"agent technology\\\", \\\"latest AI\\\", \\\"weekly digest\\\" 등의 요청 시 사용합니다. arXiv, GitHub Trending, Anthropic/LangChain 블로그에서 동향 수집, 적용 가능성 평가(난이도/효과/ROI), 구현 코드 예시를 포함합니다. (범용 AI 연구 방법론은 ai-research-integration 스킬 참조)"
 ---

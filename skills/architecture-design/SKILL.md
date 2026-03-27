@@ -1,4 +1,4 @@
-﻿---
+---
 name: architecture-design
 description: "소프트웨어 아키텍처 설계, ADR(Architecture Decision Record) 작성, 시스템 설계 문서를 생성합니다. \\\"아키텍처 설계\\\", \\\"시스템 설계\\\", \\\"ADR 작성\\\", \\\"설계 리뷰\\\", \\\"기술 결정 문서화\\\", \\\"trade-off 분석\\\" 등의 요청 시 사용합니다. Clean Architecture, DDD, 마이크로서비스, 이벤트 기반 등 다양한 패턴을 다룹니다."
 ---

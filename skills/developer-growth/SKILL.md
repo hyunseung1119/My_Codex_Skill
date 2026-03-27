@@ -1,4 +1,4 @@
-﻿---
+---
 name: developer-growth
 description: "Guide tasks in learning mode with explain-why-first coaching, a roughly 70/30 AI-to-human implementation split, practice markers, and follow-up study suggestions. Use for learning mode, guided implementation, or code explanation with mentoring."
 ---

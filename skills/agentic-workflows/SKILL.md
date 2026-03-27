@@ -1,4 +1,4 @@
-﻿---
+---
 name: agentic-workflows
 description: "멀티 에이전트 시스템 및 자율 워크플로우를 설계하고 구현합니다. \\\"멀티 에이전트\\\", \\\"워크플로우 자동화\\\", \\\"에이전트 협업\\\", \\\"오케스트레이션\\\", \\\"multi-agent\\\", \\\"agentic workflow\\\", \\\"orchestration\\\" 등의 요청 시 사용합니다. ReAct, Plan-Execute, 멀티에이전트 패턴을 포함합니다."
 ---

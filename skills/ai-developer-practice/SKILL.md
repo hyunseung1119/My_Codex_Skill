@@ -1,4 +1,4 @@
-﻿---
+---
 name: ai-developer-practice
 description: "2026년 AI 개발자 실무 종합 스킬. LLM/에이전트 시스템을 운영 수준으로 구축하기 위한 7가지 핵심 역량을 다룹니다. \\\"AI 개발\\\", \\\"에이전트 운영\\\", \\\"LLM 운영\\\", \\\"MLOps\\\", \\\"AI 실무\\\", \\\"에이전트 보안\\\", \\\"LLM observability\\\", \\\"AI 채용\\\", \\\"AI developer\\\", \\\"production LLM\\\", \\\"agent operations\\\" 등의 요청 시 사용합니다. Agentic+RAG+Tool-use 아키텍처, Observability/Eval, 데이터/검색 스택, AI 보안(OWASP LLM Top 10, MITRE ATLAS), 규제/거버넌스(SBOM, EU CRA), 모델 서빙 최적화, AI 개발자 기본기를 포괄합니다."
 ---

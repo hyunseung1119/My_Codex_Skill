@@ -1,4 +1,4 @@
-﻿---
+---
 name: clean-code
 description: "Project Guardian — 프로젝트 품질 관리 종합 스킬. 클린 코드(SOLID/DRY/KISS/YAGNI), Dockerfile 작성·보안·배포, DB 스키마 문서화, CI/CD, 프로젝트 구조 관리를 포괄한다. 코드를 작성하거나 수정할 때 이 스킬의 원칙을 적용하여 깔끔하고 안전하며 유지보수 가능한 프로젝트를 만든다. Use this skill whenever writing, reviewing, or refactoring code. Also use for Dockerfiles, CI/CD, DB schemas, migrations. Triggers: \\\"클린 코드\\\", \\\"코드 품질\\\", \\\"SOLID\\\", \\\"Dockerfile\\\", \\\"docker-compose\\\", \\\"배포\\\", \\\"deploy\\\", \\\"DB 스키마\\\", \\\"마이그레이션\\\", \\\"프로젝트 구조\\\", \\\"clean code\\\", \\\"code quality\\\". (코드 스멜 제거·구조 개선은 refactoring, 리뷰 관점은 code-review 스킬 참조)"
 ---

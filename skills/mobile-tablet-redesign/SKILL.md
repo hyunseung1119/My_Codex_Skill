@@ -1,4 +1,4 @@
-﻿---
+---
 name: mobile-tablet-redesign
 description: "Redesign interfaces for mobile and tablet without regressing desktop behavior. Use for responsive layout refactors, touch-first flows, tablet UX, or device-specific UI adaptations."
 ---
